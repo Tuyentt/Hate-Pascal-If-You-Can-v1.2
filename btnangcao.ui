@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BTNangCao</class>
+ <widget class="QDialog" name="BTNangCao">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="b10">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>500</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>iCiel Crocante</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    	
+	
+	
+	
+	color: rgb(255, 255, 255);
+   border-radius:10px;
+    border-style: inset;
+    
+    border-color:dark;
+	
+	background-color: rgb(0, 0, 0,70%);
+
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>TÍNH TỔNG BÌNH PHƯƠNG CÁC SỐ ÂM</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>130</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>18</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);
+border-width:2px;
+border-color:rgb(255, 0, 0);
+border-style: solid;</string>
+   </property>
+   <property name="text">
+    <string>X</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>120</y>
+     <width>671</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bree Serif</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextBrowser {
+border: 5px solid gray;
+border-radius: 20px;
+background: white;
+border-color: rgb(255, 170, 0)
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b4">
+   <property name="geometry">
+    <rect>
+     <x>375</x>
+     <y>200</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>iCiel Crocante</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    	
+	
+	
+	
+	color: rgb(255, 255, 255);
+   border-radius:10px;
+    border-style: inset;
+    
+    border-color:dark;
+	
+	background-color: rgb(0, 0, 0,70%);
+
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>QUAN HỆ HUYẾT THỐNG</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>260</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>iCiel Crocante</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    	
+	
+	
+	
+	color: rgb(255, 255, 255);
+   border-radius:10px;
+    border-style: inset;
+    
+    border-color:dark;
+	
+	background-color: rgb(0, 0, 0,70%);
+
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>MẢNG VÀ XÂU</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b1">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>200</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>iCiel Crocante</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    	
+	
+	
+	
+	color: rgb(255, 255, 255);
+   border-radius:10px;
+    border-style: inset;
+    
+    border-color:dark;
+	
+	background-color: rgb(0, 0, 0,70%);
+
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>SỐ HOÀN HẢO</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b5">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>260</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>iCiel Crocante</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    	
+	
+	
+	
+	color: rgb(255, 255, 255);
+   border-radius:10px;
+    border-style: inset;
+    
+    border-color:dark;
+	
+	background-color: rgb(0, 0, 0,70%);
+
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>QUẢN LÝ SINH VIÊN</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b3">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>320</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>iCiel Crocante</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    	
+	
+	
+	
+	color: rgb(255, 255, 255);
+   border-radius:10px;
+    border-style: inset;
+    
+    border-color:dark;
+	
+	background-color: rgb(0, 0, 0,70%);
+
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>SỐ SIÊU NGUYÊN TỐ</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b6">
+   <property name="geometry">
+    <rect>
+     <x>385</x>
+     <y>320</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>iCiel Crocante</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    	
+	
+	
+	
+	color: rgb(255, 255, 255);
+   border-radius:10px;
+    border-style: inset;
+    
+    border-color:dark;
+	
+	background-color: rgb(0, 0, 0,70%);
+
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>CỘNG 2 SỐ LỚN</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b7">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>380</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>iCiel Crocante</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    	
+	
+	
+	
+	color: rgb(255, 255, 255);
+   border-radius:10px;
+    border-style: inset;
+    
+    border-color:dark;
+	
+	background-color: rgb(0, 0, 0,70%);
+
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>QUẢN LÝ ĐIỂM</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b8">
+   <property name="geometry">
+    <rect>
+     <x>375</x>
+     <y>380</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>iCiel Crocante</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    	
+	
+	
+	
+	color: rgb(255, 255, 255);
+   border-radius:10px;
+    border-style: inset;
+    
+    border-color:dark;
+	
+	background-color: rgb(0, 0, 0,70%);
+
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>QUẢN LÍ HẠNH KIẾM SINH VIÊN</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b9">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>440</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>iCiel Crocante</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    	
+	
+	
+	
+	color: rgb(255, 255, 255);
+   border-radius:10px;
+    border-style: inset;
+    
+    border-color:dark;
+	
+	background-color: rgb(0, 0, 0,70%);
+
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>SAO CHÉP FILE</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b11">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>440</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>iCiel Crocante</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    	
+	
+	
+	
+	color: rgb(255, 255, 255);
+   border-radius:10px;
+    border-style: inset;
+    
+    border-color:dark;
+	
+	background-color: rgb(0, 0, 0,70%);
+
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>GIẢI PHƯƠNG TRÌNH </string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="nc_link">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>560</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    	
+	
+	
+	
+	color: rgb(255, 255, 255);
+   border-radius:10px;
+    border-style: inset;
+    
+    border-color:dark;
+	
+	background-color: rgb(0, 0, 0,70%);
+
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>Xem Thêm &gt;&gt;&gt;</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>b4</zorder>
+  <zorder>b2</zorder>
+  <zorder>b1</zorder>
+  <zorder>b5</zorder>
+  <zorder>b3</zorder>
+  <zorder>b6</zorder>
+  <zorder>b7</zorder>
+  <zorder>b8</zorder>
+  <zorder>b9</zorder>
+  <zorder>b11</zorder>
+  <zorder>b10</zorder>
+  <zorder>nc_link</zorder>
+  <zorder>textBrowser</zorder>
+  <zorder>back</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

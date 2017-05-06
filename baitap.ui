@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BaiTap</class>
+ <widget class="QDialog" name="BaiTap">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>MS Mincho</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="COBAN">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>170</y>
+     <width>341</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>iCiel Crocante</family>
+     <pointsize>20</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    	
+	
+	
+	
+	color: rgb(255, 255, 255);
+   border-radius:10px;
+    border-style: inset;
+    
+    border-color:dark;
+	
+	background-color: rgb(0, 0, 0,70%);
+
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>Bài Tập Cơ Bản</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="NANGCAO">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>320</y>
+     <width>341</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>iCiel Crocante</family>
+     <pointsize>20</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    	
+	
+	
+	
+	color: rgb(255, 255, 255);
+   border-radius:10px;
+    border-style: inset;
+    
+    border-color:dark;
+	
+	background-color: rgb(0, 0, 0,70%);
+
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>Bài Tập Nâng Cao</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>-50</x>
+     <y>580</y>
+     <width>449</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>13</pointsize>
+     <italic>true</italic>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    	
+	
+	
+	
+	color: rgb(255, 255, 255);
+   border-radius:10px;
+    border-style: inset;
+    
+    border-color:dark;
+	
+	background-color: rgb(0, 0, 0,70%);
+
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>(*): bài tập liên tục được cập nhật tại trang chủ</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
